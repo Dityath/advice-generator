@@ -28,7 +28,7 @@
     drop-shadow(0 8px 15px rgb(0 0 0 / 0.2));
 }
 
-.container figure p {
+.container figure h1 {
   text-transform: uppercase;
   letter-spacing: 4px;
   font-size: 12px;

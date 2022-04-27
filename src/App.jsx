@@ -30,7 +30,7 @@ function App() {
     >
       <div className="container">
         <figure>
-          <p>advice #{loading ? "..." : quotes.id}</p>
+          <h1>advice #{loading ? "..." : quotes.id}</h1>
         </figure>
         <blockquote className="quotes">
           <p>{loading ? "Loading..." : `“${quotes.advice}”`}</p>
@@ -41,6 +41,7 @@ function App() {
             whileHover={{ rotate: 90 }}
             whileTap={{ scale: 0.9 }}
             transition={{ duration: 0.05 }}
+            aria-label="Aria Name"
             className="btn-rand"
             onClick={fetch}
           >
